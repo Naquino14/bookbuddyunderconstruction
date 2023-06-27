@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Lora";
+  src: url('assets/Lora.ttf');
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Lora;
+  color: #f7ded7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3d405b;
+  overflow: hidden;
+}
+
+.title {
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  margin: 10px;
+}
+
+
+.logo {
+  width: auto;
+  height: 150px;
+  margin: 10px;
+}
+
+.subtext {
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+}
+
+.button {
+  background-color: #f4f1de;
+  border: none;
+  color: #000;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  margin: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.under-construction {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.hash {
+  font-size: 20px;
+  color: #f4f1de;
+  margin: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .logo {
+    height: 100px;
+  }
+
+  .subtext {
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 20px;
+    width: auto;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+}
